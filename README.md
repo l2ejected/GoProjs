@@ -7,7 +7,11 @@ go mod init <br>
 go get <github.com/link/to/package> </br>
 
 Projects completed: <br>
-1) Static website <br>
-2) CRUD <br>
-3) Slack age bot <br>
-4) Bookstore <br>
+1) Static website - go-server<br>
+2) CRUD - go-movies-crud<br>
+3) Slack age bot - slack-age-bot<br>
+4) Bookstore - go-bookstore<br>
+5) Slack file bot - slack-file-bot<br>
+6) Email checker - go-mailcheck<br>
+7) AWS Lambda Function - go-aws-lambda<br>
+8) CRM with Fiber - go-crms<br>
