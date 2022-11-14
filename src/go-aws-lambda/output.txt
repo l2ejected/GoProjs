@@ -1,0 +1,6 @@
+{"errorMessage":"fork/exec /var/task/main.exe: exec format error","errorType":"PathError"}
+
+aws cli commands from:
+https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-awscli.html
+
+aws c
