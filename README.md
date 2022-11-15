@@ -15,3 +15,4 @@ Projects completed: <br>
 6) Email checker - go-mailcheck<br>
 7) AWS Lambda Function - go-aws-lambda<br>
 8) CRM with Fiber - go-crms<br>
+9) HRMS with Fiber - go-hrms-fiber<br>
