@@ -16,3 +16,4 @@ Projects completed: <br>
 7) AWS Lambda Function - go-aws-lambda<br>
 8) CRM with Fiber - go-crms<br>
 9) HRMS with Fiber - go-hrms-fiber<br>
+10) Go Serverless Stack - go-serverless <br>
