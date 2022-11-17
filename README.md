@@ -3,7 +3,7 @@ Beginner GoLang Projects </br>
 Based on projects from https://www.youtube.com/watch?v=jFfo23yIWac&ab_channel=freeCodeCamp.org </br>
 
 basic set up steps: <br>
-go mod init <br>
+go mod init github.com/l2ejected/project-folder <br>
 go get <github.com/link/to/package> </br>
 
 Projects completed: <br>
