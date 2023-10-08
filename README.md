@@ -18,4 +18,5 @@ Projects completed: <br>
 9) HRMS with Fiber - go-hrms-fiber<br>
 10) Go Serverless Stack - go-serverless <br>
 11) Go-Bank 
-    run ```make up``` then ```make run```
+ - run ```make up```
+ - then ```make run```
