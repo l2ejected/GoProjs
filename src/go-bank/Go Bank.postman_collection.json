@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "28fbfe4b-155b-4400-bfa8-78c43bf9066a",
+		"name": "Go Bank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17760608"
+	},
+	"item": [
+		{
+			"name": "Add account",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/account"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete account by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "\"application/json\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/account"
+			},
+			"response": []
+		},
+		{
+			"name": "Get account by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/account/3"
+			},
+			"response": []
+		},
+		{
+			"name": "Update account by ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"last_name\": \"hofstadter\",\r\n    \"first_name\": \"leonard\",\r\n    \"balance\": 69.69\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/account/1"
+			},
+			"response": []
+		},
+		{
+			"name": "debit by id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "\"application/json\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 12.34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/account/1/debit"
+			},
+			"response": []
+		},
+		{
+			"name": "credit by id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "\"application/json\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 12.34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/account/1/credit"
+			},
+			"response": []
+		},
+		{
+			"name": "transfer by ID",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "\"application/json\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"2\",\r\n    \"amount\": 0.69\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/account/1/transfer"
+			},
+			"response": []
+		}
+	]
+}
